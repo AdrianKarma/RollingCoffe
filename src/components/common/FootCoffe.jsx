@@ -1,10 +1,12 @@
 
 
 const FootCoffe = () => {
-    return (
-        <div>
-            <p>Aqui va el maquetado del footer</p>
-        </div>
+    
+      
+  return (
+   <>
+   <p>aqui va el footer</p>
+   </>
     );
 };
 
