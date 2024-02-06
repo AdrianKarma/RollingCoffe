@@ -9,7 +9,7 @@ const Error404 = () => {
       <Image className=" img-fluid error404" src={error404} alt="Error404"></Image>  
       </div>
       <div className="text-center">
-      <Button > Volver al inicio </Button>
+      <Button variant="success"> Volver al inicio </Button>
       </div>
         </Container>
     );
