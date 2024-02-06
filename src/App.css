@@ -1,0 +1,26 @@
+.bg-green{
+  background-color: #003c25;
+  color: white;
+}
+
+.bg-gray{
+  background-color:lightgray;
+}
+
+.principal {
+  
+  min-height: 100vh;
+  display: flex;
+
+  flex-direction: column;
+}
+
+.nuevoMain {
+  flex-grow: 1;
+}
+
+.banner{
+  width: 100%;
+
+}
+

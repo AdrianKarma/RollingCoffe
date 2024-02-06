@@ -4,9 +4,9 @@ const FootCoffe = () => {
     
       
   return (
-   <>
-   <p>aqui va el footer</p>
-   </>
+   <footer className="text-center bg-green">
+    <p> &copy; Todos los derechos reservados</p>
+   </footer>
     );
 };
 
