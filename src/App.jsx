@@ -16,8 +16,8 @@ function App() {
     <article className='nuevoMain'>
     <NavCoffee></NavCoffee>
    {/*  <Inicio></Inicio>*/}
-    <Error404></Error404>
-  {/*  <Administrador></Administrador>*/}
+   {/*  <Error404></Error404>*/}
+   <Administrador></Administrador>
   </article>
     <FootCoffe></FootCoffe>
     </section>
