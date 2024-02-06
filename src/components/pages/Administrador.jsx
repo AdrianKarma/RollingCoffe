@@ -8,6 +8,7 @@ const Administrador = () => {
             <h1 className="" >Prodcutos disponibles</h1>
 <Button>📁</Button>
 </section>
+        <article className="table-responsive">
             <Table striped bordered hover className="mt-4 text text-center">
       <thead>
         <tr>
@@ -71,7 +72,7 @@ const Administrador = () => {
       </tbody>
     </Table>
 
-
+    </article>
         </Container>
     );
 };
