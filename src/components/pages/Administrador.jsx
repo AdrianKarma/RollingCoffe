@@ -17,7 +17,8 @@ const Administrador = () => {
 
 const traerProductos = async()=>{
 try{
-  await leerProductosAPI()
+  const listaProductosAPI = await leerProductosAPI()
+  setProductos(listaProductosAPI);
 }
 catch(error){
   console.log(error)
