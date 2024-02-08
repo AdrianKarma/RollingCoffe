@@ -1,9 +1,33 @@
 import { Container,Table, Button, Image } from "react-bootstrap";
 import coffeHeart from '../../assets/coffeHeart.png'
 
+import { useEffect, useState } from "react";
+import { leerProductosAPI } from "../../helpers/queries";
+
+
 
 const Administrador = () => {
-    return (
+
+  const [productos, setProductos] = useState([]);
+
+  useEffect( ()=>{
+    traerProductos();
+
+  },[] )
+
+const traerProductos = async()=>{
+try{
+  const listaProductosAPI = await leerProductosAPI()
+  setProductos(listaProductosAPI);
+}
+catch(error){
+  console.log(error)
+}
+
+}
+
+
+  return (
         <Container className="mt-5 ">
             <section className="d-flex justify-content-between align-items-center">
             <h1 className="" >Prodcutos disponibles</h1>
