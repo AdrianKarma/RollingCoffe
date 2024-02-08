@@ -8,9 +8,9 @@ const DetalleProducto = () => {
   return (
     <>
       <Container className="my-5">
-        <Card className="d-flex flex-row align-items-center">
-          <div className="me-4">
-            <Card.Img className="border border-danger" src={coffeHeart} />
+        <Card className="d-flex flex-row align-items-center" style={{ width: '58rem' }}>
+          <div className="me-2">
+            <Card.Img className="detalleCard" src={coffeHeart} />
           </div>
           <div>
             <Card.Header>

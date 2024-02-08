@@ -27,3 +27,8 @@
 .imgTabla{
   max-width: 150px;
 }
+
+.detalleCard{
+  max-width: 350px;
+  min-width:300px
+}
