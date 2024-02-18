@@ -18,8 +18,8 @@ const Administrador = () => {
 
 const traerProductos = async()=>{
 try{
- const listaPodructosAPI = await leerProductosAPI();
- setProductos(listaPodructosAPI);
+ const listaProductosAPI = await leerProductosAPI();
+ setProductos(listaProductosAPI);
 
 }
 catch(error){
