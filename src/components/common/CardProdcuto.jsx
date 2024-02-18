@@ -8,8 +8,8 @@ const CardProdcuto = () => {
           <Card.Title className="text-success">Café de la casa</Card.Title>
           <Card.Text>
             
-        <p>Descripción: Café colombiano con sabor suave, aroma envolvente y cuerpo sedoso.</p>
-            <p className="fw-bold">Precio $1300</p>
+        Descripción: Café colombiano con sabor suave, aroma envolvente y cuerpo sedoso.
+            Precio $1300
           </Card.Text>
         
         </Card.Body>

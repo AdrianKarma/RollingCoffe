@@ -2,7 +2,7 @@ import { Container,Table, Button, Image } from "react-bootstrap";
 import coffeHeart from '../../assets/coffeHeart.png'
 
 import { useEffect, useState } from "react";
-import { leerProductosAPI } from "../../helpers/queries";
+
 
 
 
@@ -17,8 +17,8 @@ const Administrador = () => {
 
 const traerProductos = async()=>{
 try{
-  const listaProductosAPI = await leerProductosAPI()
-  setProductos(listaProductosAPI);
+ await leerProductosAPI()
+
 }
 catch(error){
   console.log(error)
