@@ -3,6 +3,7 @@ import coffeHeart from '../../assets/coffeHeart.png'
 
 import { useEffect, useState } from "react";
 import { leerProductosAPI } from "../../helpers/queries";
+import ItemProducto from "./ItemProducto";
 
 
 
@@ -48,21 +49,10 @@ catch(error){
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td className="align-middle">1</td>
-          <td className="align-middle">Café de la casa</td>
-          <td className="align-middle">
-            $1300
-          </td>
-          <td className="align-middle"><Image className="img-fluid imgTabla" src={coffeHeart}></Image></td>
-          <td className="align-middle">Babida Caliente</td>
-          <td className="align-middle">
-            <div className="d-flex justify-content-around">
-          <Button variant="warning"><i className="bi bi-pencil-square"></i></Button>
-            <Button variant="danger"><i className="bi bi-trash"></i></Button>
-            </div>
-          </td>
-        </tr>       
+        {
+   productos.map((Producto)=> <ItemProducto key={Producto.id} Producto={Producto}></ItemProducto>)
+        }
+     
       
 
       </tbody>

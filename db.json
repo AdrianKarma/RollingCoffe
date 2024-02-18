@@ -1,25 +1,49 @@
 {
     "productos":[
 {
-    "nombreProducto" : "café" ,
+    "nombreProducto" : "Café con leche" ,
     "precio": 1000,
     "categoria": "infuciones",
-    "descripcion-breve": "café suave de agradable fragancia",
-    "descripcion-amplia": "café suave de agradable fragancia",
+    "descripcion_breve": "café suave de agradable fragancia",
+    "descripcion_amplia": "Una deliciosa combinación de café fuerte con leche cremosa, perfecta para empezar el día.",
     "imagen" :"https://s1.elespanol.com/2017/02/13/cocinillas/cocinillas_193495389_116293001_1706x960.jpg",
     "disponibilidad": true,
     "id":"1"
 },
 
 {
-    "nombreProducto" : "te" ,
-    "precio": 1000,
+    "nombreProducto" : "Te en hebras" ,
+    "precio": 400,
     "categoria": "infuciones",
-    "descripcion-breve": "te suave de agradable fragancia",
-    "descripcion-amplia": "te suave de agradable fragancia",
-    "imagen" :"https://s1.elespanol.com/2017/02/13/cocinillas/cocinillas_193495389_116293001_1706x960.jpg",
+    "descripcion_breve": "te suave de agradable fragancia",
+    "descripcion_amplia": "Una selección de té en hebras, disponible en diferentes variedades para disfrutar a cualquier hora del día.",
+    "imagen" :"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT21Y6UUCudba95svPmk8M0O7WdVhhmvu_i6Y2U2FesKV_kIgFu",
     "disponibilidad": true,
-    "id":"1"
+    "id":"2"
+}
+,
+
+{
+    "nombreProducto" : "Croissants" ,
+    "precio": 200,
+    "categoria": "bolleria",
+    "descripcion_breve": "Croissants recién horneados",
+    "descripcion_amplia": "Croissants recién horneados rellenos de chocolate, una delicia para el paladar.",
+    "imagen" :"https://bigoven-res.cloudinary.com/image/upload/h_320,w_320,c_fill/croissants-2.jpg",
+    "disponibilidad": true,
+    "id":"3"
+}
+,
+
+{
+    "nombreProducto" : "Licuado de Frutas" ,
+    "precio": 900,
+    "categoria": "Bebidas Frías",
+    "descripcion_breve": "Licuado de frutas variadas.",
+    "descripcion_amplia": "Refrescante licuado de frutas frescas, una opción saludable y deliciosa.",
+    "imagen" :"https://bigoven-res.cloudinary.com/image/upload/h_320,w_320,c_fill/banana-licuado-mexican-smoothie-1528772.jpg",
+    "disponibilidad": true,
+    "id":"4"
 }
 
     ],
