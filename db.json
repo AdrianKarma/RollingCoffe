@@ -5,7 +5,7 @@
     "precio": 1000,
     "categoria": "infuciones",
     "descripcion-breve": "café suave de agradable fragancia",
-    "descripcion-amplia": "café suave de agradable fragancia",
+    "descripcion-amplia": "café suave de agradable fragancia Amplia",
     "imagen" :"https://s1.elespanol.com/2017/02/13/cocinillas/cocinillas_193495389_116293001_1706x960.jpg",
     "disponibilidad": true,
     "id":"1"
@@ -15,8 +15,8 @@
     "nombreProducto" : "té" ,
     "precio": 300,
     "categoria": "infuciones",
-    "descripcion-breve": "café suave de agradable fragancia",
-    "descripcion-amplia": "café suave de agradable fragancia",
+    "descripcion-breve": "té suave de agradable fragancia",
+    "descripcion-amplia": "té suave de agradable fragancia Amplia",
     "imagen" :"https://s1.elespanol.com/2017/02/13/cocinillas/cocinillas_193495389_116293001_1706x960.jpg",
     "disponibilidad": true,
     "id":"2"
