@@ -8,6 +8,8 @@ import Inicio from './components/pages/Inicio'
 import Error404 from './components/pages/Error404';
 import "bootstrap-icons/font/bootstrap-icons.css"
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import DetalleProducto from './components/common/DetalleProducto';
+import FormularioProducto from './components/common/FormularioProducto';
 
 function App() {
 
