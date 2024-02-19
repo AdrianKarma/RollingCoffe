@@ -1,5 +1,5 @@
 import { Container,Table, Button, Image } from "react-bootstrap";
-import coffeHeart from '../../assets/coffeHeart.png'
+
 
 import { useEffect, useState } from "react";
 import { leerProductosAPI } from "../../helpers/queries";
