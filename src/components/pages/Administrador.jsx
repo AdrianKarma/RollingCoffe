@@ -4,7 +4,7 @@ import { Container,Table, Button, Image } from "react-bootstrap";
 import { useEffect, useState } from "react";
 import { leerProductosAPI } from "../../helpers/queries";
 import ItemProducto from "./ItemProducto";
-
+import { Link} from 'react-router-dom';
 
 
 
@@ -34,7 +34,7 @@ catch(error){
         <Container className="mt-5 ">
             <section className="d-flex justify-content-between align-items-center">
             <h1 className="" >Prodcutos disponibles</h1>
-<Button><i className="bi bi-file-earmark-plus"></i></Button>
+<Button as={Link} to={'crear'}><i className="bi bi-file-earmark-plus"></i></Button>
 </section>
         <article className="table-responsive">
             <Table striped bordered hover className="mt-4 text text-center">
